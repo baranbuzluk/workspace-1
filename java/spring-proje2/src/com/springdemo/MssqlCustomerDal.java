@@ -1,7 +1,10 @@
+package com.springdemo;
 
+import org.springframework.stereotype.Component;
 
-
-public class OracleCustomerDal implements ICustomerDAL{
+@Component("database")
+public class MssqlCustomerDal implements ICustomerDAL {
+	
 	private String connectionString;
 
 	public void setConnectionString(String connectionString) {
@@ -10,9 +13,10 @@ public class OracleCustomerDal implements ICustomerDAL{
 	public String getConnectionString() {
 		return connectionString;
 	}
+	@Override
 	public void add() {
 		System.out.println("Connection String: "+this.connectionString);
-		System.out.println("Oracle Database eklendi..");
-	}
+		System.out.println("MSSQL veritabanýna eklendi..");
 
+	}
 }

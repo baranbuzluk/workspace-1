@@ -1,3 +1,4 @@
+package com.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,7 +10,7 @@ public class Main {
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		//ICustomerService manager=new CustomerManager(context.getBean("database",ICustomerDAL.class));
-		ICustomerService manager=context.getBean("service",ICustomerService.class);
+		ICustomerDAL manager=context.getBean("database",ICustomerDAL.class);
 		manager.add();
 	}
 }

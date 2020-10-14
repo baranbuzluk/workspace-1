@@ -1,12 +1,23 @@
 
-public class CustomerManager {
+
+public class CustomerManager implements ICustomerService {
 	private ICustomerDAL customerDAL;
-	
-	public CustomerManager(ICustomerDAL customerDal) {
-		this.customerDAL=customerDal;
+
+	//Construction-Injection
+/*	public CustomerManager(ICustomerDAL customerDal) {
+		this.customerDAL = customerDal;
 	}
-public void add() {
+*/
 	
-	customerDAL.add();
-}
+	
+	
+	//setter injection
+	public void setCustomerDAL(ICustomerDAL customerDAL) {
+		this.customerDAL = customerDAL;
+	}
+	
+	public void add() {
+
+		customerDAL.add();
+	}
 }

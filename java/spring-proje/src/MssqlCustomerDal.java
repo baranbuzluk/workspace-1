@@ -1,7 +1,7 @@
 
 
-
-public class MysqlCustomerDal implements ICustomerDAL {
+public class MssqlCustomerDal implements ICustomerDAL {
+	
 	private String connectionString;
 
 	public void setConnectionString(String connectionString) {
@@ -12,8 +12,8 @@ public class MysqlCustomerDal implements ICustomerDAL {
 	}
 	@Override
 	public void add() {
-		System.out.println("Connection String: " + this.connectionString);
-		System.out.println("Mysql veritabaný çalýþtý");
+		System.out.println("Connection String: "+this.connectionString);
+		System.out.println("MSSQL veritabanýna eklendi..");
 
 	}
 }
