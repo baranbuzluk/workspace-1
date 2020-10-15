@@ -1,9 +1,12 @@
 package com.springdemo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("database")
+
 public class MysqlCustomerDal implements ICustomerDAL {
+	
+	@Value("${sqlConnectionString}")
 	private String connectionString;
 
 	public void setConnectionString(String connectionString) {
