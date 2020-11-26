@@ -14,7 +14,7 @@ KODLAR
 
 # Verilerin yuklenmesi ve Gosterilmesi
 #   BEGIN
-dframeSatis=pd.read_csv('satislar.csv')
+dframeSatis=pd.read_csv('../datas/satislar.csv')
 aylar=dframeSatis[['Aylar']]
 satislar=dframeSatis[['Satislar']]
 

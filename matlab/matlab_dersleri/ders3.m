@@ -60,3 +60,5 @@ try
 catch 
      disp("hata meydana geldi.")
 end
+
+a=[1 2 ;3 4];

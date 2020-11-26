@@ -129,4 +129,31 @@ def dogrusalSifreleme(acikMetin):
     print(sifreliMetin)
     print(cozulenMetin)
     return sifreliMetin
-dogrusalSifreleme("bartan")
+
+
+
+def rsaSifreleme():
+    """
+    RSA şifreleme yöntemi
+    RSA anahtar uretimi; Algoritmalar (vasif nabiyev) syf 267.
+
+    n=p*q  fi=(p-1)*(q-1)
+    1< e < fi rasgele bir e sayisi secilir ebob(e,fi)=1
+    1< d < fi aralidinda  ed=1 (mod fi) sartini saglayan d sayisi hesaplanir
+    genel anahtar (n,e); ozel anahtar d dir;
+    """
+    # Anahtar uretimi BEGIN
+    p=13
+    q=23
+    n=p*q
+    fi=(p-1)*(q-1)
+    e=35 # 35 sayisini sarta uygun sectik
+    d=83 # e=35 olursa d sayisi 83 olur
+    # Anahtar uretimi END
+
+    # Sifreleme BEGIN
+    mesaj=11;
+    
+
+    # Sfireleme END
+

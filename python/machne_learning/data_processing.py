@@ -14,7 +14,7 @@ KODLAR
 
 # Verileri csv dosyasından okuma#
 #   BEGIN
-datas=pd.read_csv("veriler.csv")
+datas=pd.read_csv("datas/veriler.csv")
 #print(datas)
 #   END
 
@@ -34,7 +34,7 @@ boyKiloDatas=datas[['boy','kilo']]
 #Eksik Verilerin Düzenlenmesi
 #   BEGIN
 from sklearn.impute import SimpleImputer
-missingData=pd.read_csv('eksikveriler.csv')
+missingData=pd.read_csv('datas/eksikveriler.csv')
 mean_imputer = SimpleImputer(missing_values = np.nan , strategy = 'mean')
 yas=missingData.iloc[:,1:4].values
 #print(yas)
