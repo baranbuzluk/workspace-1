@@ -4,7 +4,7 @@ import pandas as pd
 #   BEGIN
 csv_dframe = pd.read_csv('../datas/veriler.csv')  # ulke,boy,kilo,yas,cinsiyet
 x_datas_np = csv_dframe.iloc[:, 1:4].values  # boy,kilo,yas
-y_datas_np = csv_dframe.iloc[:, 4:].values  # cinsiyet
+y_datas_np = csv_dframe.iloc[:, 4:].values # cinsiyet
 
 #   END
 

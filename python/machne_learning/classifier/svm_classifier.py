@@ -39,7 +39,6 @@ svc.fit(x_scaled_train, y_train_np)
 y_predict_np = svc.predict(x_scaled_test)
 #   END
 
-
 # Confusion matrix of the movdel
 #   BEGIN
 from sklearn.metrics import confusion_matrix

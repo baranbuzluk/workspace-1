@@ -47,6 +47,8 @@ print(yas)
 from sklearn.preprocessing import OneHotEncoder
 
 ulkeler = missingData.iloc[:, 0:1]
+ulke.
+
 """
 print(ulkeler)
 labelEncoder=LabelEncoder()
@@ -62,7 +64,8 @@ ulkeler = oneHotEncoder.fit_transform(ulkeler).toarray()
 # DataFrame olusturma ve Verileri Birleştirme
 #   BEGIN
 sutunlarUlke = ['fr', 'tr', 'us']
-dframeUlke = pd.DataFrame(data=ulkeler, index=range(len(ulkeler)), columns=sutunlarUlke)
+dframeUlke = pd.DataFrame(data=ulkeler, index=range(len(ulkeler)),
+                          columns=sutunlarUlke)
 print(dframeUlke)
 
 sutunlarYas = ['boy', 'kilo', 'yas']

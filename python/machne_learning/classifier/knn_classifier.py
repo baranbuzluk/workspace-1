@@ -3,6 +3,7 @@ import pandas as pd
 # Loading ve slicing dataframe
 #   BEGIN
 csv_dframe = pd.read_csv('../datas/veriler.csv')  # ulke,boy,kilo,yas,cinsiyet
+#csv_dframe = csv_dframe[csv_dframe.iloc[:,3]>15]
 x_datas_np = csv_dframe.iloc[:, 1:4].values  # boy,kilo,yas
 y_datas_np = csv_dframe.iloc[:, 4:].values  # cinsiyet
 
