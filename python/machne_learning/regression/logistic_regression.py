@@ -12,7 +12,7 @@ y_datas_np = csv_dframe.iloc[:, 4:].values  # cinsiyet
 #   BEGIN
 from sklearn.model_selection import train_test_split
 
-x_train_np, x_test_np, y_train_np, y_test_np = train_test_split(x_datas_np, y_datas_np, random_state=0, test_size=0.33)
+train_x_np, test_x_np, train_y_np, test_y_np = train_test_split(x_datas_np, y_datas_np, random_state=0, test_size=0.33)
 
 #   END
 
@@ -21,9 +21,9 @@ x_train_np, x_test_np, y_train_np, y_test_np = train_test_split(x_datas_np, y_da
 from sklearn.preprocessing import StandardScaler
 
 StandardScaler = StandardScaler()
-StandardScaler.fit(x_train_np)
-x_scaled_train = StandardScaler.transform(x_train_np)
-x_scaled_test = StandardScaler.transform(x_test_np)
+StandardScaler.fit(train_x_np)
+train_scaled_x_np = StandardScaler.transform(train_x_np)
+test_scaled_x_np = StandardScaler.transform(test_x_np)
 #   END
 
 
@@ -32,15 +32,15 @@ x_scaled_test = StandardScaler.transform(x_test_np)
 from sklearn.linear_model import LogisticRegression
 
 LogisticRegression = LogisticRegression(random_state=1)
-LogisticRegression.fit(x_scaled_train, y_train_np)
-y_predict_np = LogisticRegression.predict(x_scaled_test)
+LogisticRegression.fit(train_scaled_x_np, train_y_np)
+predict_y_np = LogisticRegression.predict(test_scaled_x_np)
 #   END
 
 
-# Confusion matrix of the movdel
+# Confusion matrix of the model
 #   BEGIN
 from sklearn.metrics import confusion_matrix
 
-conf_matrix = confusion_matrix(y_test_np, y_predict_np)
+conf_matrix = confusion_matrix(test_y_np, predict_y_np)
 print(conf_matrix)
 #   END

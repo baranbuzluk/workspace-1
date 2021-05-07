@@ -70,7 +70,7 @@ y_prediction = linearReg.predict(x_test_gender)
 # print(y_prediction)
 #   END
 
-
+"""
 # Veri setini duzenleme -- boy tahmini
 #   BEGIN
 
@@ -109,3 +109,4 @@ r_ols = sm.OLS(endog=height_np, exog=X_l)
 r = r_ols.fit()
 print(r.summary())
 #   END
+"""

@@ -1,19 +1,38 @@
-function y=regula_falsi_method(func,x0,x1)
-epsilon=0.000000000001;
-x2=epsilon+1;
-old_x2=0;
-while (func(x0)*func(x1)<0)&&(abs(x2-old_x2)>epsilon)
-    old_x2=x2;
-    x2=regula_falsi(func,x0,x1);
-    if func(x0)*func(x2)<0
-        x1=x2;
-    else
-        x0=x2;
+clc;clear;
+%% PARAMETRELER
+func=@(x) power(x,3)+4*power(x,2)-10;
+x0 =1;
+x1 = 2;
+epsilon=0.0000;
+iter=7;
+%% REGULA FALSI
+i=1;
+a=x0;
+b=x1;
+c=0;
+error=epsilon+1;
+if func(a)*func(b)>0
+    fprintf('Bu aralikta kok yok\n');
+else
+    while true
+         if iter < i || error < epsilon
+            break;
+        end
+        
+        opr1 = a * func(b);
+        opr2 = b * func(a);
+        c = (opr1-opr2)/ (func(b)-func(a));
+        error = abs(c-a);
+        if func(a)*func(c)<0
+            b=c;
+        else
+            a=c;
+        end
+        
+        fprintf('%d.Iterasyon -> Xa: %.7f Xb: %.7f Xc: %.7f  Error: %.7f\n',i,a,b,c,error);
+        i=i+1;
+       
     end
 end
-y=x2;
-end
-function y=regula_falsi(func,a,b)
-%%  c= a.f(b)-b.f(a) / f(b)-f(a)
-y=( (a *func(b)) - (b * func(a)) ) /  ( func(b) - func(a));
-end
+
+
