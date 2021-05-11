@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a00e1441-6722-480c-b158-d9de005c0778" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../algoritmalar_kitap/.idea/algoritmalar_kitap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../algoritmalar_kitap/.idea/algoritmalar_kitap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/machne_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machne_learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/decision_tree_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/decision_tree_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/knn_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/knn_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/random_forest_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/random_forest_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/svm_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/svm_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_working/iris/Iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_working/iris/iris_working.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression/multiple_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression/multiple_linear_regression.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/baranbuzluk/workspace-1" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j3ijyMaEQF9xZqI0Fe8T5gc7kQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Dosyalar\workspace\python\machne_learning\my_working\iris" />
+      <recent name="C:\Users\User\Desktop\Dosyalar\workspace\python\machne_learning\datas" />
+      <recent name="C:\Users\User\Desktop\Dosyalar\workspace\python\machne_learning\classifier" />
+      <recent name="C:\Users\User\Desktop\Dosyalar\workspace\python\machne_learning\regression" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.vize_odev">
+    <configuration name="data_processing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\Desktop\workspace\python\machne_learning\data_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iris_working (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_homework/iris" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_homework/iris/iris_working.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iris_working" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_working/iris" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_working/iris/iris_working.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vize_odev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_homework/ysa_odev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_homework/ysa_odev/vize_odev.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ysa_odev_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_homework/ysa_odev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_homework/ysa_odev/ysa_odev_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ysa_odev_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machne_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_working/ysa_odev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_working/ysa_odev/ysa_odev_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.vize_odev" />
+        <item itemvalue="Python.ysa_odev_1 (1)" />
+        <item itemvalue="Python.iris_working (1)" />
+        <item itemvalue="Python.ysa_odev_1" />
+        <item itemvalue="Python.iris_working" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a00e1441-6722-480c-b158-d9de005c0778" name="Default Changelist" comment="" />
+      <created>1603039315098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603039315098</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603125262067">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603125262067" />
+    <state x="557" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604754277139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604754277139" />
+    <state x="594" y="139" key="FileChooserDialogImpl" timestamp="1604754265234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="594" y="139" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604754265234" />
+    <state width="1271" height="158" key="GridCell.Tab.0.bottom" timestamp="1607847881377">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1283" height="135" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1606294684347" />
+    <state width="1271" height="158" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1607847881377" />
+    <state width="1271" height="158" key="GridCell.Tab.0.center" timestamp="1607847881376">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1283" height="135" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1606294684342" />
+    <state width="1271" height="158" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1607847881376" />
+    <state width="1271" height="158" key="GridCell.Tab.0.left" timestamp="1607847881376">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1283" height="135" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1606294684342" />
+    <state width="1271" height="158" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1607847881376" />
+    <state width="1271" height="158" key="GridCell.Tab.0.right" timestamp="1607847881377">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1283" height="135" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1606294684342" />
+    <state width="1271" height="158" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1607847881377" />
+    <state width="1271" height="238" key="GridCell.Tab.1.bottom" timestamp="1607714475444">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1271" height="238" key="GridCell.Tab.1.bottom/74.0.1292.768@74.0.1292.768" timestamp="1607714475444" />
+    <state width="1271" height="238" key="GridCell.Tab.1.center" timestamp="1607714475443">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1271" height="238" key="GridCell.Tab.1.center/74.0.1292.768@74.0.1292.768" timestamp="1607714475443" />
+    <state width="1271" height="238" key="GridCell.Tab.1.left" timestamp="1607714475443">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1271" height="238" key="GridCell.Tab.1.left/74.0.1292.768@74.0.1292.768" timestamp="1607714475443" />
+    <state width="1271" height="238" key="GridCell.Tab.1.right" timestamp="1607714475444">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606115108964" />
+    <state width="1271" height="238" key="GridCell.Tab.1.right/74.0.1292.768@74.0.1292.768" timestamp="1607714475444" />
+    <state x="505" y="66" key="RollbackChangesDialog" timestamp="1604755695164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="505" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604755695164" />
+    <state x="221" y="29" key="SettingsEditor" timestamp="1607843821081">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="221" y="29" key="SettingsEditor/74.0.1292.768@74.0.1292.768" timestamp="1607843821081" />
+    <state x="312" y="117" key="Vcs.Push.Dialog.v2" timestamp="1606384453951">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="312" y="117" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1606384453951" />
+    <state x="537" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606384443658">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="537" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/74.0.1292.768@74.0.1292.768" timestamp="1606384443658" />
+    <state x="434" y="0" width="559" height="768" key="find.popup" timestamp="1606217101826">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1606023297050" />
+    <state x="434" y="0" width="559" height="768" key="find.popup/62.0.1304.768@62.0.1304.768" timestamp="1606217101826" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606023677719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606023677719" />
+  </component>
+</project>
